@@ -1,0 +1,13 @@
+{
+  "status": "PACKAGED_STATIC_CHECKS_PASS",
+  "python_files_syntax_valid": 90,
+  "missing_internal_import_targets": [],
+  "known_identity_and_secret_pattern_findings": 0,
+  "copied_source_files_byte_identical": 96,
+  "git_history_included": false,
+  "datasets_results_model_weights_included": false,
+  "api_calls": 0,
+  "gpu_tasks": 0,
+  "real_inference_run": false,
+  "scope": "Static checks; cannot guarantee unlinkability from previously public source code."
+}

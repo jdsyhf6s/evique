@@ -1,0 +1,3 @@
+# Optional CPU dense retrieval; the main package remains usable without this.
+fastembed>=0.8.1,<0.9
+numpy>=1.24
