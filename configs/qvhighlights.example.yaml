@@ -1,0 +1,14 @@
+project: EVIQUE
+dataset: qvhighlights
+paths:
+  index_dir: /path/to/evique/index
+  query_file: /path/to/qvhighlights/queries.jsonl
+  prediction_file: /path/to/output/predictions.jsonl
+retrieval:
+  top_k_windows: 10
+  max_evidence: 18
+  token_budget: 12000
+evaluation:
+  evaluator_script: /path/to/moment_detr/standalone_eval/eval.py
+  ground_truth_file: /path/to/qvhighlights/validation.jsonl
+  metrics_file: /path/to/output/metrics.json
